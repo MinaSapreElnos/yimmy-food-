@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+}
+
+
+/* sideBar */
+
+.sideBar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 250;
+    z-index: 99999999999;
+}
+.moveSideBar{
+    background-color: black;
+    width: 0px;
+    height: 100vh;
+    overflow: hidden;
+}
+.informtion{
+    margin-top: 200px;
+}
+
+
+.clicked-icon{
+    width: 80px;
+    height: 100vh;
+    background-color: whitesmoke;
+} 
+
+.clicked-icon img{
+    width: 100%;
+}
+
+.clicked-icon i {
+    padding-top: 300px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+
+
+.sideBar-links {
+    list-style: none;
+   margin-top:100px ;
+   height: 300px;
+   overflow: hidden;
+}
+
+.sideBar-links li{
+    padding-top: 500px;
+}
+
+/* end sideBer */
+
+/* stert content */
+.card{
+    overflow: hidden;
+}
+.layer{
+    position: absolute;
+    top:300px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255,0.5);
+    transition: 1s all;
+}
+
+.card:hover .layer{
+    top: 0px;
+
+}
+
+.layer p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.layer-loading{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background-color: dimgray;
+    opacity: 0.5;
+    z-index: 99999999999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.layer-loading i{
+    color: white;
+}
+.active{
+    color: rgb(186, 56, 56);
+}
+
+#recipes{
+    list-style: none;
+}
+
+
+form p{
+    z-index: 9999999999999;
+}
+
+/* end content */
